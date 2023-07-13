@@ -27,7 +27,7 @@ Actions:
       Type: EC2
     Configuration:
       Wait: true
-      AppId: dapp
+      AppStackName: AppStack
       CreateBranch: true
       AmplifyBranchName: ${WorkflowSource.BranchName}
       Path: .
